@@ -2,7 +2,6 @@
 
 <%- include('./partials/header') %>
   <main>
-
     <div class="area-config">
       <div class="container">
         <div class="row">
@@ -12,13 +11,13 @@
               <div class="card-box tempo-aprendendo d-block mt-3">
                 <div class="card-box">
                     <p class="txt-aprendendo">tempo aprendendo</p>
-                    <input type="text" id="tempo-qtde-aprendendo" value="1000">
+                    <p id="tempo-qtde-aprendendo">8 horas</p>
                 </div>
               </div>
               <div class="card-box tempo-ensinando d-block">
                 <div class="card-box">
                     <p class="txt-ensinando">tempo ensinando</p>
-                    <input type="text" id="tempo-qtde-ensinando" value="1000">
+                    <p id="tempo-qtde-ensinando">8 horas</p>
                 </div>
               </div>
             </div>
@@ -54,16 +53,25 @@
                     <a href="#"><button class="btn mt-3 excluir-conta-button">excluir conta</button></a>
                   </div>
                 </div>
-                <div class="imagem-config">
-                  <img src="/images/config.svg" alt="imagem-config" class="img-config">
-                </div>
+                <div class="area-imagem-excluir">
+                  <div class="card-box fundo-branco-imagem">
+                    <h3 class="title-excluir-conta">deseja mesmo excluir a conta?</h3>
+                    <div class="card-box fundo-cinza-imagem">
+                      <img src="/images/sad1.svg" alt="imagem-config" class="img-excluir-conta">
+                      <div class="btn-excluir-conta">
+                        <a href="#"><button class="btn mt-3 config-button-excluir-conta">excluir</button></a>
+                        <a href="#"><button class="btn mt-3 config-button-excluir-conta">cancelar</button></a>
+                      </div>
+                  </div>
+                  </div>
+                </div>  
               </form>
             </div>
         </div>
       </div>
     </div>
 
-  </main onload="ocultarEntrar()">
+  </main>
 
   <%- include('./partials/footer-config') %>
   <script src="/scripts/script.js"></script>
