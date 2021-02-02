@@ -17,5 +17,8 @@ router.get('/config', usersController.config)
 /* excluir conta */
 router.get('/excluirConta', usersController.excluirConta)
 
+/* agendamentos */
+router.get('/agendamentos', usersController.agendamentos)
+
 module.exports = router;
  

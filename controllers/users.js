@@ -11,6 +11,9 @@ const usersController = {
     },
     excluirConta:(req,res,next) =>{
         res.render('excluirConta')
+    },
+    agendamentos:(req,res,next) =>{
+        res.render('agendamentos')
     }
 }
 
