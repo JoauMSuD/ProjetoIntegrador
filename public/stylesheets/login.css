@@ -252,6 +252,22 @@ img {
     margin-top: 0;
   }
 
+
+  /* ===== imagens comuns =====*/
+  .comum-img {
+    display: flex;
+    width: 600px;
+    height: 588px;
+    background-color: var(--first-color-lighten);
+    border-radius: 1rem;
+    padding-left: 1rem;
+  }
+
+  .comum-img img {
+    width: 390px;
+    margin-top: 0;
+  }
+
   .login-registre,
   .login-create {
     left: -11rem;

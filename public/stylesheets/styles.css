@@ -102,7 +102,7 @@ header, .navbar {
     background-color: var(--first-color);
     color: white;
     border: none;
-    border-radius: 18.8px;
+    border-radius: 20px;
     font-weight: bold;
     width: 9rem;
     height: 3rem;
